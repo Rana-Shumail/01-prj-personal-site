@@ -4,8 +4,73 @@
   <meta charset="UTF-8">
   <title>My Personal Site</title>
   <link rel="stylesheet" href="style.css">
+  <!-- Add FontAwesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-  <!-- Add your HTML content here -->
+  <!-- Navigation bar at the top -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero section: Your name and a short welcome message -->
+  <section class="hero" id="home">
+    <!-- Use rs logo.png as your profile image -->
+    <img src="img/rs logo.png" alt="Profile picture" style="width:120px; border-radius:50%; display:block; margin: 0 auto 16px auto;">
+    <h1>Glad you're here!</h1>
+    <p>Hello! I'm Rana Ahmad Shumail, a web development student.</p>
+  </section>
+
+  <!-- Bio section: A short paragraph about yourself -->
+  <section class="bio" id="about">
+    <h2>About Me</h2>
+    <p>
+      I am learning web development and excited to build new projects. This website will showcase my progress and portfolio.
+    </p>
+  </section>
+
+  <!-- Skills section: List your skills with icons -->
+  <section class="skills" id="skills">
+    <h2>My Skills</h2>
+    <ul>
+      <li><i class="fa-brands fa-html5" aria-hidden="true"></i> HTML</li>
+      <li><i class="fa-brands fa-css3-alt" aria-hidden="true"></i> CSS</li>
+      <li><i class="fa-brands fa-js" aria-hidden="true"></i> JavaScript (learning)</li>
+      <!-- Added C++ skill with a code icon -->
+      <li><i class="fa-solid fa-code" aria-hidden="true"></i> C++</li>
+    </ul>
+  </section>
+
+  <!-- Portfolio section: Placeholder for your projects -->
+  <section class="portfolio" id="projects">
+    <h2>My Projects</h2>
+    <!-- List of projects with improved wording -->
+    <ul>
+      <li>
+        <!-- Project 1 -->
+        A simple program that calculates a patient's hospital bill.
+      </li>
+      <li>
+        <!-- Project 2 -->
+        A menu-driven application for managing a software store's inventory and sales.
+      </li>
+      <li>
+        <!-- Project 3 -->
+        A complete banking program that lets users enter deposits and withdrawals for savings and checking accounts, then shows monthly statistics like starting balance, total deposits, total withdrawals, service charges, and ending balance.
+      </li>
+    </ul>
+  </section>
+
+  <!-- Footer section for contact info -->
+  <footer>
+    <!-- Contact info in the footer -->
+    <p>Contact US: <a href="mailto:rs1050@systems.unt.edu">rs1050@systems.unt.edu</a></p>
+  </footer>
 </body>
 </html>

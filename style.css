@@ -173,3 +173,29 @@ footer a {
   font-size: 18px;
   margin-bottom: 16px;
 }
+
+/* Center the About Me section text */
+.bio {
+  text-align: center;
+}
+
+/* Make the paragraph in the About Me section look like a real paragraph */
+.bio p {
+  display: inline-block; /* shrink to fit content */
+  max-width: 500px;      /* limit width for readability */
+  margin: 0 auto;        /* center horizontally */
+  text-align: left;      /* left-align text inside the paragraph */
+  line-height: 1.6;      /* add some line spacing */
+}
+
+/* Use Playwrite Mexico Guide font for specific headings and set dark wine color */
+/* Import Playwrite Mexico Guide font from Google Fonts if available */
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+Mexico+Guide&display=swap');
+
+/* About Me, My Skills, My Projects headings */
+.bio h2,
+.skills h2,
+.portfolio h2 {
+  font-family: 'Playwrite Mexico Guide', 'Times New Roman', Times, serif; /* Playwrite Mexico Guide font */
+  color: #4b0026; /* dark wine color */
+}

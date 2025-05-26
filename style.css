@@ -118,7 +118,7 @@ h1, h2 {
 
 /* Make the main heading in the hero section white with a smooth black border and italic */
 .hero h1 {
-  color: #f5acb2; /* white text */
+  color: #dd8d94; /* white text */
   /* Use a blurred black shadow for a smooth border */
   text-shadow:
     0 0 4px #000,
